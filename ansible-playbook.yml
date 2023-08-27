@@ -19,4 +19,4 @@
     command: docker build -t ansible-img .
 
   - name: "Run container from image"
-    command: docker run -d --name ansible-container -p 8001:80 ansible-img
+    command: docker run -d --name ansible-container -p 5000:80 ansible-img
